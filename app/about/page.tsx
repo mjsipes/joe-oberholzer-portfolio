@@ -1,10 +1,10 @@
 import Image from "next/image";
+import ContactForm from "../components/ContactForm";
 
 export default function Page() {
   return (
     <section>
       <div className="flex flex-col items-center mb-8">
-
         <div className="w-full max-w-2xl mb-8">
           <Image
             src="/joe1.JPG"
@@ -32,6 +32,9 @@ export default function Page() {
             area.
           </p>
         </div>
+        
+        {/* Contact Form Section */}
+        <ContactForm />
       </div>
     </section>
   );
